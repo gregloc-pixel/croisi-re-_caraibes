@@ -107,10 +107,10 @@ section{padding:76px 40px}
 .stripe-badge{display:flex;align-items:center;justify-content:center;gap:6px;font-family:sans-serif;font-size:.75rem;color:#888;margin-top:10px}
 
 /* GALERIE */
-#galerie{background:#000;padding:0;position:relative;overflow:hidden;height:70vh;max-height:550px;min-height:350px;width:100%;margin:0;left:0;right:0}
-.gallery-track{display:flex;height:100%;transition:transform .8s ease-in-out;width:100%}
-.gallery-slide{min-width:100%;height:100%;position:relative;flex-shrink:0;overflow:hidden}
-.gallery-slide img{width:100%;height:100%;object-fit:cover;object-position:center;opacity:.9}
+#galerie{background:#000;padding:0;position:relative;overflow:hidden;height:500px}
+.gallery-track{display:flex;height:100%;transition:transform .8s ease-in-out}
+.gallery-slide{min-width:100%;height:100%;position:relative;flex-shrink:0}
+.gallery-slide img{width:100%;height:100%;object-fit:cover;opacity:.85}
 .gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.7));padding:20px 30px;color:#fff;font-family:sans-serif}
 .gallery-caption h3{font-size:1.1rem;margin-bottom:4px}
 .gallery-caption p{font-size:.82rem;opacity:.8}
@@ -159,7 +159,7 @@ footer a{color:var(--light-blue);text-decoration:none}
     <li><a href="#calendrier">Calendrier</a></li>
     <li><a href="#tarifs">Tarifs</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="https://www.instagram.com/croisiere_caraibes" target="_blank" style="color:#f9a8d4">📸 Instagram</a></li>
+    <li><a href="https://www.instagram.com/jouel_passe_a_louest" target="_blank" style="color:#f9a8d4">📸 Instagram</a></li>
   </ul>
 </nav>
 
@@ -186,8 +186,9 @@ footer a{color:var(--light-blue);text-decoration:none}
   <div class="croi-grid">
 
     <div class="croi-card">
-      <div class="croi-photo" style="background:linear-gradient(135deg,#48cae4,#0077b6);overflow:hidden;padding:0">
-        <img src="https://i.postimg.cc/mZK5Fkrk/dji-fly-20260207-153524-465-1770493150419-photo-optimized.jpg" style="width:100%;height:100%;object-fit:cover;opacity:.9">
+      <div class="croi-photo">
+        <div class="ph-icon">📷</div>
+        <div class="ph-label">VOTRE PHOTO — Les Grenadines</div>
         <div class="croi-badge">10 jours</div>
       </div>
       <div class="croi-body">
@@ -207,22 +208,22 @@ footer a{color:var(--light-blue);text-decoration:none}
     </div>
 
     <div class="croi-card">
-      <div class="croi-photo" style="background:linear-gradient(135deg,#2dc653,#1b4332)">
+      <div class="croi-photo" style="background:linear-gradient(135deg,#f4a261,#e76f51)">
         <div class="ph-icon">📷</div>
-        <div class="ph-label">VOTRE PHOTO — Les Saintes</div>
-        <div class="croi-badge">4 jours</div>
+        <div class="ph-label">VOTRE PHOTO — Martinique</div>
+        <div class="croi-badge">7 jours</div>
       </div>
       <div class="croi-body">
-        <h3>⚓ Mini Croisière — Les Saintes</h3>
-        <div class="croi-depart">⚓ Départ : Rivière-Sens ou Gosier, Guadeloupe</div>
-        <p>L'escapade idéale pour découvrir les joyaux des Saintes : Terre-de-Haut, Terre-de-Bas, l'îlet Cabrit et les spots secrets de Greg. Parfait pour les locaux et les petits budgets !</p>
+        <h3>🌺 Tour de Martinique</h3>
+        <div class="croi-depart">⚓ Départ : Le Marin, Martinique</div>
+        <p>Le tour de l'île aux fleurs : Saint-Anne, le Rocher du Diamant, la baie de Fort-de-France, la presqu'île de la Caravelle et les mouillages du nord.</p>
         <div class="croi-includes">
           <span class="tag">✓ Nourriture</span><span class="tag">✓ Draps</span>
-          <span class="tag">✓ Bouées</span><span class="tag">✓ Spots secrets</span>
+          <span class="tag">✓ Clearance</span><span class="tag">✓ Bouées</span>
           <span class="tag">✓ Carburant</span>
         </div>
         <div class="price-row">
-          <div class="price">1 750 € <span>/ bateau</span></div>
+          <div class="price">2 550 € <span>/ bateau</span></div>
           <a href="#calendrier" class="btn-book">Réserver</a>
         </div>
       </div>
@@ -250,27 +251,10 @@ footer a{color:var(--light-blue);text-decoration:none}
       </div>
     </div>
 
-    <div class="croi-card">
-      <div class="croi-photo" style="background:linear-gradient(135deg,#2dc653,#1b4332)">
-        <div class="ph-icon">📷</div>
-        <div class="ph-label">VOTRE PHOTO — Les Saintes</div>
-        <div class="croi-badge">4 jours</div>
-      </div>
-      <div class="croi-body">
-        <h3>⚓ Mini Croisière — Les Saintes</h3>
-        <div class="croi-depart">⚓ Départ : Rivière-Sens ou Gosier, Guadeloupe</div>
-        <p>L'escapade idéale pour découvrir les joyaux des Saintes : Terre-de-Haut, Terre-de-Bas, l'îlet Cabrit et les spots secrets de Greg. Parfait pour les locaux et les petits budgets !</p>
-        <div class="croi-includes">
-          <span class="tag">✓ Nourriture</span><span class="tag">✓ Draps</span>
-          <span class="tag">✓ Bouées</span><span class="tag">✓ Spots secrets</span>
-          <span class="tag">✓ Carburant</span>
-        </div>
-        <div class="price-row">
-          <div class="price">1 750 € <span>/ bateau</span></div>
-          <a href="#calendrier" class="btn-book">Réserver</a>
-        </div>
-      </div>
-    </div>
+  </div>
+</section>
+
+<!-- LE BATEAU -->
 <section id="bateau">
   <div class="section-title">
     <h2>Le Bateau</h2>
@@ -423,24 +407,24 @@ footer a{color:var(--light-blue);text-decoration:none}
 <section id="galerie">
   <div class="gallery-track" id="galleryTrack">
     <div class="gallery-slide">
-      <img src="https://i.postimg.cc/ZndK5Jrh/4BB0DD08-FFFF-4AED-A396-D75EC585BC48.jpg" alt="Mayreau">
-      <div class="gallery-caption"><h3>🌴 Mouillage de Mayreau</h3><p>📍 Grenadines</p></div>
-    </div>
-    <div class="gallery-slide">
-      <img src="https://i.postimg.cc/tT73qv2T/dji-export-20260108-photo-0005.jpg" alt="Dauphin">
+      <img src="https://i.postimg.cc/ZndK5Jrh/4BB0DD08-FFFF-4AED-A396-D75EC585BC48.jpg" alt="Dauphin">
       <div class="gallery-caption"><h3>🐬 Rencontre avec les dauphins</h3><p>📍 Grenadines</p></div>
     </div>
     <div class="gallery-slide">
-      <img src="https://i.postimg.cc/BvnDpwWy/5e093cd0-3058-43cf-a3cc-f26d086c2a09.jpg" alt="Chez Roméo">
-      <div class="gallery-caption"><h3>🦞 Chez Roméo — Langoustes & détente</h3><p>📍 Grenadines</p></div>
+      <img src="https://i.postimg.cc/tT73qv2T/dji-export-20260108-photo-0005.jpg" alt="Vue drone">
+      <div class="gallery-caption"><h3>🚁 Vue aérienne du mouillage</h3><p>📍 Antilles françaises</p></div>
     </div>
     <div class="gallery-slide">
-      <img src="https://i.postimg.cc/Kv7M2yxq/dji-fly-20260207-155200-475-1770494430984-photo-optimized.jpg" alt="Wing foil">
-      <div class="gallery-caption"><h3>🏄 Wing foil aux Tobago Cays</h3><p>📍 Grenadines</p></div>
+      <img src="https://i.postimg.cc/BvnDpwWy/5e093cd0-3058-43cf-a3cc-f26d086c2a09.jpg" alt="Coucher de soleil">
+      <div class="gallery-caption"><h3>🌅 Coucher de soleil aux Antilles</h3><p>📍 Martinique</p></div>
     </div>
     <div class="gallery-slide">
-      <img src="https://i.postimg.cc/Rh7N4c5x/IMG-8097.jpg" alt="Vue drone">
-      <div class="gallery-caption"><h3>⛵ Le Sun Odyssey 49 vu du ciel</h3><p>📍 Grenadines</p></div>
+      <img src="https://i.postimg.cc/Kv7M2yxq/dji-fly-20260207-155200-475-1770494430984-photo-optimized.jpg" alt="Vue drone 2">
+      <div class="gallery-caption"><h3>⛵ Le Sun Odyssey 49 vu du ciel</h3><p>📍 Guadeloupe</p></div>
+    </div>
+    <div class="gallery-slide">
+      <img src="https://i.postimg.cc/Rh7N4c5x/IMG-8097.jpg" alt="Coucher de soleil 2">
+      <div class="gallery-caption"><h3>🌇 Fin de journée en mer</h3><p>📍 Caraïbes</p></div>
     </div>
     <div class="gallery-slide">
       <img src="https://i.postimg.cc/9FXWD3yw/IMG-6547.jpg" alt="Photo 6">
@@ -513,10 +497,6 @@ footer a{color:var(--light-blue);text-decoration:none}
   <div class="contact-box">
     <div class="form-group"><label>Votre nom</label><input type="text" placeholder="Prénom et nom"></div>
     <div class="form-group"><label>Email</label><input type="email" placeholder="votre@email.com"></div>
-    <div style="background:var(--light);border-radius:12px;padding:16px;margin-bottom:16px;font-family:sans-serif;font-size:.88rem">
-      <p style="margin-bottom:8px">📞 <strong><a href="tel:+33783961991" style="color:var(--dark);text-decoration:none">+33 7 83 96 19 91</a></strong></p>
-      <p>✉️ <strong><a href="mailto:contact@jojuel-sailing.com" style="color:var(--dark);text-decoration:none">contact@jojuel-sailing.com</a></strong></p>
-    </div>
     <div class="form-group">
       <label>Croisière souhaitée</label>
       <select>
@@ -535,7 +515,7 @@ footer a{color:var(--light-blue);text-decoration:none}
     </div>
     <div class="form-group"><label>Message</label><textarea placeholder="Dites-nous en plus sur votre projet…"></textarea></div>
     <button class="btn-submit">Envoyer ma demande ✉️</button>
-    <a href="https://wa.me/33783961991" class="whatsapp-btn">💬 Nous contacter sur WhatsApp</a>
+    <a href="https://wa.me/33600000000" class="whatsapp-btn">💬 Nous contacter sur WhatsApp</a>
   </div>
 </section>
 
