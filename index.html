@@ -107,10 +107,10 @@ section{padding:76px 40px}
 .stripe-badge{display:flex;align-items:center;justify-content:center;gap:6px;font-family:sans-serif;font-size:.75rem;color:#888;margin-top:10px}
 
 /* GALERIE */
-#galerie{background:#000;padding:0;position:relative;overflow:hidden;height:60vh;max-height:500px;min-height:300px}
-.gallery-track{display:flex;height:100%;transition:transform .8s ease-in-out}
-.gallery-slide{min-width:100%;height:100%;position:relative;flex-shrink:0}
-.gallery-slide img{width:100%;height:100%;object-fit:cover;opacity:.85}
+#galerie{background:#000;padding:0;position:relative;overflow:hidden;height:70vh;max-height:550px;min-height:350px;width:100%;margin:0;left:0;right:0}
+.gallery-track{display:flex;height:100%;transition:transform .8s ease-in-out;width:100%}
+.gallery-slide{min-width:100%;height:100%;position:relative;flex-shrink:0;overflow:hidden}
+.gallery-slide img{width:100%;height:100%;object-fit:cover;object-position:center;opacity:.9}
 .gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.7));padding:20px 30px;color:#fff;font-family:sans-serif}
 .gallery-caption h3{font-size:1.1rem;margin-bottom:4px}
 .gallery-caption p{font-size:.82rem;opacity:.8}
@@ -186,9 +186,8 @@ footer a{color:var(--light-blue);text-decoration:none}
   <div class="croi-grid">
 
     <div class="croi-card">
-      <div class="croi-photo">
-        <div class="ph-icon">📷</div>
-        <div class="ph-label">VOTRE PHOTO — Les Grenadines</div>
+      <div class="croi-photo" style="background:linear-gradient(135deg,#48cae4,#0077b6);overflow:hidden;padding:0">
+        <img src="https://i.postimg.cc/mZK5Fkrk/dji-fly-20260207-153524-465-1770493150419-photo-optimized.jpg" style="width:100%;height:100%;object-fit:cover;opacity:.9">
         <div class="croi-badge">10 jours</div>
       </div>
       <div class="croi-body">
@@ -208,22 +207,22 @@ footer a{color:var(--light-blue);text-decoration:none}
     </div>
 
     <div class="croi-card">
-      <div class="croi-photo" style="background:linear-gradient(135deg,#f4a261,#e76f51)">
+      <div class="croi-photo" style="background:linear-gradient(135deg,#2dc653,#1b4332)">
         <div class="ph-icon">📷</div>
-        <div class="ph-label">VOTRE PHOTO — Martinique</div>
-        <div class="croi-badge">7 jours</div>
+        <div class="ph-label">VOTRE PHOTO — Les Saintes</div>
+        <div class="croi-badge">4 jours</div>
       </div>
       <div class="croi-body">
-        <h3>🌺 Tour de Martinique</h3>
-        <div class="croi-depart">⚓ Départ : Le Marin, Martinique</div>
-        <p>Le tour de l'île aux fleurs : Saint-Anne, le Rocher du Diamant, la baie de Fort-de-France, la presqu'île de la Caravelle et les mouillages du nord.</p>
+        <h3>⚓ Mini Croisière — Les Saintes</h3>
+        <div class="croi-depart">⚓ Départ : Rivière-Sens ou Gosier, Guadeloupe</div>
+        <p>L'escapade idéale pour découvrir les joyaux des Saintes : Terre-de-Haut, Terre-de-Bas, l'îlet Cabrit et les spots secrets de Greg. Parfait pour les locaux et les petits budgets !</p>
         <div class="croi-includes">
           <span class="tag">✓ Nourriture</span><span class="tag">✓ Draps</span>
-          <span class="tag">✓ Clearance</span><span class="tag">✓ Bouées</span>
+          <span class="tag">✓ Bouées</span><span class="tag">✓ Spots secrets</span>
           <span class="tag">✓ Carburant</span>
         </div>
         <div class="price-row">
-          <div class="price">2 550 € <span>/ bateau</span></div>
+          <div class="price">1 750 € <span>/ bateau</span></div>
           <a href="#calendrier" class="btn-book">Réserver</a>
         </div>
       </div>
